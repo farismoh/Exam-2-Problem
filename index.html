@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem by Faris Mohiuddin</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2problem.css"/>
+      <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+<center>
+    <h1>Exam 2 Problem</h1>
+    <h2>By Faris Mohiuddin</h2>
+        
+    
+    
+    
+    <section id="title">
+        
+        
+            <select onchange="MenuChoice()" id="menu">
+                <option>Please select an option</option>
+                <option>Display Category list</option>
+                <option>Add New Category</option>
+                <option>Update Description</option>
+                <option>Delete a Category</option>
+                <option>About</option>
+            </select>
+        
+    </section>
+            
+            
+            
+            
+            
+    <section id="section1" class="section1">
+                <body onload="Create()">
+                    
+                </body>
+                <div id="dataa"></div>
+                
+    </section>
+    
+    
+    <br>
+        <section id="section2" class="section2">
+                
+                
+    
+            
+            <label>Please Enter a Category Name: </label>
+            
+            <input type="text" id="catname">
+            
+                        
+            <br>
+            
+            <label>Pleaes enter the Category Description: </label>
+            
+            <input type="text" id="catription">
+            
+            <br>
+            
+            
+                
+            <button onclick="CreateCustomer()" id="newcust">Add a New Category</button>
+            
+            <br>
+            
+            <hr>
+            
+            <br>
+            
+            <label id="result">The operation's result will display here.</label>
+            
+            <br>
+                
+            <hr>
+            
+            
+        </section>
+        
+        
+        <section id="section3" class="section3">
+            <label>Please Enter the Category ID: </label>
+            
+            <input type="number" id="catid">
+                        
+            <br>
+            
+            <label>Pleaes enter the new description: </label>
+            
+            <input type="text" id="catdesc">
+            
+            <br>
+                            
+            <button onclick="updateOrderAddress()" id="neworder">Change the category description</button>
+            
+            <br>
+            
+            <hr>
+            
+            <br>
+            
+            <label id="res">The operation's result will display here.</label>
+            
+            
+            </section>
+            
+            <section id="section4" class="section4">
+            <hr>
+                
+            <label>Please enter Category ID to delete</label>
+            
+            <input type="number" id="custidee">
+                
+            <br>
+                
+            <button onclick="deleteCustomer()" id="delcustomer">Delete a Category</button>
+            
+            <br>
+                
+            <hr>
+                
+            <label id="rez">The result of the deleting will be displayed here</label>
+            </section>
+            
+            
+            </section>
+            
+            <section id="section5" class="section5">
+                <h1>Faris Mohiuddin</h1>
+                <h1>Major: Information Systems</h1>
+                <h1>Graduation: Fall 2015</h1>
+                <h1>farismoh@uab.edu</h1>
+            
+</center>         
+</body>
+</html>
